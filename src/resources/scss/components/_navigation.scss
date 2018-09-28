@@ -1,0 +1,22 @@
+.navbar-inverse .navbar-nav > li > a {
+    font-family: 'Lato-Regular';
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    font-size: 12px;
+    min-height: 44px;
+}
+.cogn-internal-nav {
+    min-height: 44px;
+}
+.cogn-internal-nav-right {
+    border-left: 1px solid $navbar-inverse-border;
+}
+.cogn-internal-brand {
+    padding: 9px 15px;
+    height: 44px;
+}
+.nav .cogn-right-nav-item a {
+    padding-right: 0px;
+}

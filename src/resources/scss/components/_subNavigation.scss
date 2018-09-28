@@ -1,0 +1,38 @@
+.cogn-subnav-custom {
+    margin-top: 5px;
+}
+.cogn-subnav-custom > li  {
+    display: inline-block;
+}
+.cogn-subnav-custom > li.active > a  {
+    color: $brand-primary;
+    background-color: transparent;
+}
+.cogn-subnav-custom > li > a  {
+    display: inline-block;
+    color: $cogn-subnav-default;
+}
+.cogn-subnav-custom > li > a:hover  {
+    background-color: transparent;
+    color: $brand-primary;
+    opacity: 1;
+}
+.cogn-subnav-custom > li.cogn-custom-breadcrumb > a {
+    color: $brand-primary;
+}
+.cogn-subnav-custom > li.cogn-custom-breadcrumb > a .sub-menu-title {
+    color: $brand-primary;
+    opacity: 1; //change to add hover feature on breadcrumbs
+}
+.cogn-subnav-custom > li.active > a .sub-menu-title {
+    opacity: 1;
+}
+.cogn-subnav-custom > li.cogn-custom-breadcrumb > a .sub-menu-title:hover {
+    opacity: 1;
+}
+.sub-menu-title {
+    padding-right: 15px;
+}
+.nav > li.cogn-sub-item > a {
+    padding-right: 0px;
+}
